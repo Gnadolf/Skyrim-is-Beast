@@ -1,9 +1,66 @@
-header{
-	background-color: #006666;
-	padding: 40px;
-	padding-right: 
+html, body{
+	font-family: Arial, sand-serif;
+	margin: 0;
 }
 
+
+header{
+	background-color: #006666;
+	padding: 40px 20px 30px 20px;
+	text-align: center;
+	width: 850px;
+	height: 430px;
+	}
+h1{
+	font-size: 40px; 
+	color: black;
+	text-decoration: underline;
+
+
+}
+
+header img{
+	border-radius: 300px;
+	width: 650px;
+	border: 10px solid #0000cc; 
+
+}
+
+.content{
+	max-width: 882px;
+	margin: 0 10px 10px;
+	padding: 0 20px;
+
+}
+
+img.big-image{
+	max-width: 100%;
+}
+p.caption{
+	font-size: 20px;
+	color: grey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #E6E6E6;
+}
+footer ul{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
 /*<header>
 			<img src="img/profile.jpg">
 			<h1>Skyrim, the best Game</h1>
